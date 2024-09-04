@@ -30,7 +30,7 @@ export class loginPage {
         await this.page.locator(this.loginbtn).click();
     }
     verifyloginpage() {
-        // Directly return the Locator object
+        // Directly return the Locator object to verify
         return this.page.locator(this.successmsg);
     }
     async clickonlogout() {

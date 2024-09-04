@@ -1,7 +1,7 @@
 export class Logindata{
     constructor(){
-   this. userid ='mngr587124',
-    this.password='zAgUdyp'
+   this. userid ="mngr587124",
+    this.password="zAgUdyp"
 }
 
  getuserid(){
