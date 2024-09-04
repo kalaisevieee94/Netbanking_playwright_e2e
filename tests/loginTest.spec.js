@@ -10,5 +10,5 @@ test('login', async ({ page }) => {
     await ln.enterUserID(TestData.getuserid());
     await ln.enterPassword(TestData.getpassword());
     await ln.submitcredentials();
-    await expect(ln.verifyloginpage()).toHaveText("Welcome To Manager's Page of GTPL Bank");
+    await expect(ln.verifyloginpage()).toHaveText("Welcome To Manager's Page of GTPL Bank");;
 })
